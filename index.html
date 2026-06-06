@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
     <title>Корчі🚜🛠️+майстерня🪛⚙️</title>
     <style>
         :root {
@@ -198,7 +199,7 @@
                 <span class="label">Картка банки</span>
                 <div class="data-row">
                     <div class="value">4441 1111 2727 6370</div>
-                    <button class="btn" onclick="copyText(this, '4441111127276370')">Копія</button>
+                    <button class="btn" onclick="copyText(this, '4441111127276370')">Скопіювати</button>
                 </div>
             </div>
 
@@ -206,7 +207,7 @@
                 <span class="label">Приматбанк</span>
                 <div class="data-row">
                     <div class="value">5168 7450 2764 7046</div>
-                    <button class="btn" onclick="copyText(this, '5168745027647046')">Копія</button>
+                    <button class="btn" onclick="copyText(this, '5168745027647046')">Скопіювати</button>
                 </div>
             </div>
         </div>
@@ -218,7 +219,7 @@
                 <span class="label">PayPal</span>
                 <div class="data-row">
                     <div class="value">skifnomad@gmail.com</div>
-                    <button class="btn" onclick="copyText(this, 'skifnomad@gmail.com')">Копія</button>
+                    <button class="btn" onclick="copyText(this, 'skifnomad@gmail.com')">Скопіювати</button>
                 </div>
             </div>
         </div>
@@ -230,7 +231,7 @@
                 <span class="label">USDT (Тільки мережа TRC20!)</span>
                 <div class="data-row">
                     <div class="value">TVtbUgn5HWsccyZCgzUs83UM9SoqnYJ5YM</div>
-                    <button class="btn" onclick="copyText(this, 'TVtbUgn5HWsccyZCgzUs83UM9SoqnYJ5YM')">Копія</button>
+                    <button class="btn" onclick="copyText(this, 'TVtbUgn5HWsccyZCgzUs83UM9SoqnYJ5YM')">Скопіювати</button>
                 </div>
             </div>
 
@@ -238,7 +239,7 @@
                 <span class="label">BTC</span>
                 <div class="data-row">
                     <div class="value">17rTKna3Q9sR6qR9HTbJY8iT1wFma8zCWa</div>
-                    <button class="btn" onclick="copyText(this, '17rTKna3Q9sR6qR9HTbJY8iT1wFma8zCWa')">Копія</button>
+                    <button class="btn" onclick="copyText(this, '17rTKna3Q9sR6qR9HTbJY8iT1wFma8zCWa')">Скопіювати</button>
                 </div>
             </div>
 
@@ -246,7 +247,7 @@
                 <span class="label">ETH (ERC20)</span>
                 <div class="data-row">
                     <div class="value">0x9ec3551c6833b6765e0acab4cee75526c219d8d0</div>
-                    <button class="btn" onclick="copyText(this, '0x9ec3551c6833b6765e0acab4cee75526c219d8d0')">Копія</button>
+                    <button class="btn" onclick="copyText(this, '0x9ec3551c6833b6765e0acab4cee75526c219d8d0')">Скопіювати</button>
                 </div>
             </div>
         </div>
@@ -257,7 +258,7 @@
         function copyText(button, text) {
             navigator.clipboard.writeText(text).then(() => {
                 // Зберігаємо початковий текст кнопки
-                const originalText = "Копія";
+                const originalText = "Скопіювати";
                 
                 // Змінюємо стиль на успішний
                 button.innerText = 'Готово!';
